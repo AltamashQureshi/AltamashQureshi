@@ -158,7 +158,7 @@ Matoshri Pratishthan's School of Management, Nanded · `2015 – 2018`
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=altamashqureshi&layout=compact&theme=tokyonight&hide_border=true)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=altamashqureshi&theme=tokyonight&hide_border=true)
 
 </div>
 
