@@ -2,7 +2,7 @@ name: Daily Contribution
 
 on:
   schedule:
-    - cron: '0 9 * * *'   # Every day 9:00 AM UTC = 2:30 PM IST
+    - cron: '23 * * * *'   # Every day 9:00 AM UTC = 2:30 PM IST
   workflow_dispatch:        # Manual trigger from Actions tab
 
 jobs:
