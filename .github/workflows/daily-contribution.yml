@@ -2,8 +2,8 @@ name: Daily Contribution
 
 on:
   schedule:
-    - cron: '0 9 * * *'   # Runs every day at 9:00 AM UTC (2:30 PM IST)
-  workflow_dispatch:        # Allows manual trigger anytime
+    - cron: '0 9 * * *'   # Every day 9:00 AM UTC = 2:30 PM IST
+  workflow_dispatch:        # Manual trigger from Actions tab
 
 jobs:
   contribute:
@@ -17,7 +17,7 @@ jobs:
 
       - name: Set git identity
         run: |
-          git config --global user.email "your-github-email@gmail.com"
+          git config --global user.email "${{ secrets.GH_EMAIL }}"
           git config --global user.name "AltamashQureshi"
 
       - name: Make daily update
