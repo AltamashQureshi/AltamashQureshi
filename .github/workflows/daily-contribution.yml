@@ -1,0 +1,29 @@
+name: Daily Contribution
+
+on:
+  schedule:
+    - cron: '3 * * * *'   # Runs every day at 9:00 AM UTC (2:30 PM IST)
+  workflow_dispatch:        # Allows manual trigger anytime
+
+jobs:
+  contribute:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Set git identity
+        run: |
+          git config --global user.email "your-github-email@gmail.com"
+          git config --global user.name "AltamashQureshi"
+
+      - name: Make daily update
+        run: |
+          DATE=$(date +"%Y-%m-%d %H:%M:%S")
+          echo "Daily update: $DATE" >> activity_log.md
+          git add activity_log.md
+          git commit -m "docs: daily activity log update - $DATE"
+          git push
