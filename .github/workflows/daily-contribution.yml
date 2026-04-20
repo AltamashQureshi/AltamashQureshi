@@ -2,29 +2,31 @@ name: Daily Contribution
 
 on:
   schedule:
-    - cron: '17 12 * * *'
+    - cron: '*/10 * * * *'   # Every 10 minutes
   workflow_dispatch:
 
 jobs:
-  update-log:
+  contribute:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_TOKEN }}
+          fetch-depth: 0
 
       - name: Set Git Identity
         run: |
           git config --global user.name "${{ secrets.GIT_USERNAME }}"
-          git config --global user.email "${{ secrets.GIT_EMAIL }}"
+          git config --global user.email "${{ secrets.GH_EMAIL }}"
 
       - name: Update Activity Log
         run: |
-          echo "Last contribution: $(date -u +"%Y-%m-%d %H:%M:%S")" >> activity_log.md
+          echo "Last contribution: $(date -u +"%Y-%m-%d %H:%M:%S") \n" >> activity_log.md
 
       - name: Commit and Push Changes
         run: |
           git add activity_log.md
-          git commit -m "Update activity log with timestamp"
+          git diff --staged --quiet || git commit -m "docs: daily activity log - $(date -u +"%Y-%m-%d %H:%M:%S")"
           git push origin main
