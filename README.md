@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Altamash Qureshi.
+# 👋 Hi, I'm Altamash Qureshi
 
 ### DevOps Engineer · Infrastructure Architect · Automation Enthusiast
 
