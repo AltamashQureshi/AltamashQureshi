@@ -10,7 +10,7 @@
 
 ---
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=3%2B+Years+of+DevOps+Experience;12%2C000%2B+Nodes+Managed+in+Production;PAN-India+5G+Infrastructure+Lead;CI%2FCD+%7C+Cloud+%7C+Containers+%7C+IaC)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=4%2B+Years+of+DevOps+Experience;12%2C000%2B+Nodes+Managed+in+Production;PAN-India+5G+Infrastructure+Lead;CI%2FCD+%7C+Cloud+%7C+Containers+%7C+IaC)
 
 </div>
 
