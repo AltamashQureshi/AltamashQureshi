@@ -20,7 +20,7 @@
 
 > *"Infrastructure is not just about keeping the lights on — it's about building systems that scale, heal, and evolve."*
 
-I'm a **DevOps Engineer & Deputy Manager at Jio Platforms Limited** with **3+ years** of hands-on production experience building resilient, large-scale infrastructure. I specialize in eliminating toil through automation — managing **12,000+ worker nodes**, leading **PAN-India 5G deployments**, and crafting CI/CD pipelines that cut deployment times by **40%**.
+I'm a **DevOps Engineer & Deputy Manager at Jio Platforms Limited** with **4 years** of hands-on production experience building resilient, large-scale infrastructure. I specialize in eliminating toil through automation — managing **12,000+ worker nodes**, leading **PAN-India 5G deployments**, and crafting CI/CD pipelines that cut deployment times by **40%**.
 
 - 🏗️ Led containerized infrastructure rollout for India's 5G network
 - ⚡ Reduced manual intervention by **60%** through Python & Bash automation
