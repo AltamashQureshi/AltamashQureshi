@@ -154,9 +154,10 @@ Matoshri Pratishthan's School of Management, Nanded · `2015 – 2018`
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=altamashqureshi&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=altamashqureshi&layout=compact&theme=tokyonight&hide_border=true)
+<a href="https://github.com/AltamashQureshi">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AltamashQureshi&theme=tokyonight" alt="GitHub Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AltamashQureshi&theme=tokyonight" alt="Top Languages" width="48%" />
+</a>
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=altamashqureshi&theme=tokyonight&hide_border=true)
 
